@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+  }
+  
+  main {
+    margin-top: 50px;
+  } 
+
+  #header-img {
+    width: 120px;
+    height: 60px;
+    padding: 12px 12px 12px 24px;
+  }
+
+  #nav-bar {
+    width: 600px;
+    padding: 12px 12px 12px 0px;
+  }
+
+  li a {
+    text-decoration: none;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+  }
+
+  main {
+    border: 5px solid grey;
+    border-radius: 1em;
+    padding: 50px;
+    margin: 100px;
+    background-color: whitesmoke;
+  }
+
+  #features, #how-it-works, #pricing, #btn{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+  }
+
+  h3 {
+    text-decoration: underline;
+  }
+
+  #video {
+    border: 10px black solid;
+  }
+
+  #submit {
+    margin: 5px;
+    padding: 5px;
+    background-color: blue;
+  }
+  section #btn {
+    padding-left: 100px;
+  }
